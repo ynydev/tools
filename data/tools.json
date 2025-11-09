@@ -63,5 +63,10 @@
     "title": "HTTPステータスコード",
     "description": "HTTPステータスコードをチェックします",
     "href": "/tools/http-status-checker"
+  },
+  {
+    "title": "JSONスキーマバリデータ",
+    "description": "JSONが正しい形をしているかチェックします",
+    "href": "/tools/json-schema-validator"
   }
 ]
