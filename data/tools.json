@@ -131,7 +131,7 @@
   },
   {
     "title": "進数変換ツール",
-    "description": "2進数・8進数・10進数・16進数の相互変換を行います",
+    "description": "2・8・10・16進数の相互変換を行います",
     "href": "/tools/number-base-converter"
   },
   {
@@ -153,5 +153,30 @@
     "title": "BMI計算ツール",
     "description": "身長と体重からBMI値を計算します",
     "href": "/tools/bmi-calculator"
+  },
+  {
+    "title": "単位変換ツール",
+    "description": "長さ・重さ・体積などの単位を相互変換します",
+    "href": "/tools/unit-converter"
+  },
+  {
+    "title": "時間変換ツール",
+    "description": "秒・分・時間・日を変換します",
+    "href": "/tools/time-converter"
+  },
+  {
+    "title": "日付差計算ツール",
+    "description": "2つの日付の差（日数）を計算します",
+    "href": "/tools/date-difference"
+  },
+  {
+    "title": "ストップウォッチ",
+    "description": "シンプルなストップウォッチ機能です",
+    "href": "/tools/stopwatch"
+  },
+  {
+    "title": "カウントダウンタイマー",
+    "description": "指定秒数のカウントダウンを行います",
+    "href": "/tools/countdown-timer"
   }
 ]
