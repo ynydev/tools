@@ -58,5 +58,10 @@
     "title": "Diffツール",
     "description": "2つの文字列比較",
     "href": "/tools/diff-checker"
+  },
+  {
+    "title": "HTTPステータスコード",
+    "description": "HTTPステータスコードをチェックします",
+    "href": "/tools/http-status-checker"
   }
 ]
