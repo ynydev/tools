@@ -128,5 +128,30 @@
     "title": "UUID生成ツール",
     "description": "ランダムなUUID（v4）を生成します",
     "href": "/tools/uuid-generator"
+  },
+  {
+    "title": "進数変換ツール",
+    "description": "2進数・8進数・10進数・16進数の相互変換を行います",
+    "href": "/tools/number-base-converter"
+  },
+  {
+    "title": "パーセンテージ計算ツール",
+    "description": "割合や%計算を簡単に行います",
+    "href": "/tools/percentage-calculator"
+  },
+  {
+    "title": "温度変換ツール",
+    "description": "摂氏・華氏・ケルビンの温度を相互変換します",
+    "href": "/tools/temperature-converter"
+  },
+  {
+    "title": "年齢計算ツール",
+    "description": "生年月日から現在の年齢を計算します",
+    "href": "/tools/age-calculator"
+  },
+  {
+    "title": "BMI計算ツール",
+    "description": "身長と体重からBMI値を計算します",
+    "href": "/tools/bmi-calculator"
   }
 ]
