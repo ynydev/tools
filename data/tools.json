@@ -38,5 +38,10 @@
     "title": "改行コード変換",
     "description": "LF⇄CRLF⇄CR 変換",
     "href": "/tools/line-break-converter"
+  },
+  {
+    "title": "JWTデコードツール",
+    "description": "JWTをデコードします",
+    "href": "/tools/jwt-decoder"
   }
 ]
