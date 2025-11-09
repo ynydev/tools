@@ -68,5 +68,10 @@
     "title": "JSONスキーマバリデータ",
     "description": "JSONが正しい形をしているかチェックします",
     "href": "/tools/json-schema-validator"
+  },
+  {
+    "title": "YAML ⇄ JSON 変換ツール",
+    "description": "YAMLとJSONを変換します",
+    "href": "/tools/yaml-json-converter"
   }
 ]
