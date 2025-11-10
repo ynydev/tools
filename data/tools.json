@@ -66,7 +66,7 @@
   },
   {
     "title": "JSONスキーマバリデータ",
-    "description": "JSONが正しい形をしているかチェックします",
+    "description": "JSONが正しい形をしているかチェック",
     "href": "/tools/json-schema-validator"
   },
   {
@@ -141,7 +141,7 @@
   },
   {
     "title": "温度変換ツール",
-    "description": "摂氏・華氏・ケルビンの温度を相互変換します",
+    "description": "摂氏・華氏・ケルビンの温度を変換します",
     "href": "/tools/temperature-converter"
   },
   {
@@ -156,7 +156,7 @@
   },
   {
     "title": "単位変換ツール",
-    "description": "長さ・重さ・体積などの単位を相互変換します",
+    "description": "長さ・重さ・体積などの単位を変換します",
     "href": "/tools/unit-converter"
   },
   {
