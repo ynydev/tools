@@ -20,7 +20,7 @@ export function ToolCard({ title, description, href }: ToolCard) {
         </div>
 
         <div className="absolute inset-0 flex items-center justify-center bg-black/60 text-white text-xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-sm">
-          確認!
+          使ってみる！
         </div>
       </div>
     </Link>

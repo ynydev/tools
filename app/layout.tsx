@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import { Noto_Sans_JP } from "next/font/google";
+import { Noto_Sans_JP, Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 
 const NotoSansJP = Noto_Sans_JP();
+const PoppinsFont = Poppins({ weight: "400" });
 
 export const metadata: Metadata = {
   title: "便利ツール | シンプルで使いやすい日常向けWebアプリ集",
@@ -18,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body className={`${NotoSansJP.className}`}>
+      <body className={`${NotoSansJP.className} ${PoppinsFont.className}`}>
         <Navbar />
         {children}
       </body>
