@@ -173,16 +173,6 @@
         "href": "/tools/date-difference"
       },
       {
-        "title": "ストップウォッチ",
-        "description": "シンプルなストップウォッチ機能です",
-        "href": "/tools/stopwatch"
-      },
-      {
-        "title": "カウントダウンタイマー",
-        "description": "指定秒数のカウントダウンを行います",
-        "href": "/tools/countdown-timer"
-      },
-      {
         "title": "税込み / 税抜き計算ツール",
         "description": "税込・税抜価格を自動で計算します",
         "href": "/tools/tax-calculator"
@@ -206,6 +196,21 @@
         "title": "BMI計算ツール",
         "description": "身長と体重からBMI値を計算します",
         "href": "/tools/bmi-calculator"
+      }
+    ]
+  },
+  {
+    "category": "時間系ツール",
+    "tools": [
+      {
+        "title": "ストップウォッチ",
+        "description": "シンプルなストップウォッチ機能です",
+        "href": "/tools/stopwatch"
+      },
+      {
+        "title": "カウントダウンタイマー",
+        "description": "指定秒数のカウントダウンを行います",
+        "href": "/tools/countdown-timer"
       }
     ]
   }
