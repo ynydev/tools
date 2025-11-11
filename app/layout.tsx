@@ -7,9 +7,9 @@ const NotoSansJP = Noto_Sans_JP();
 const PoppinsFont = Poppins({ weight: "400" });
 
 export const metadata: Metadata = {
-  title: "便利ツール | シンプルで使いやすい日常向けWebアプリ集",
+  title: "YNYTools | シンプルで使いやすい日常向けWebアプリ集",
   description: "シンプルで使いやすい便利ツールをまとめたサイトです。日常で役立つツールを無料で利用できます。",
-  keywords: ["便利ツール", "無料ツール", "日常", "Webアプリ", "シンプル"],
+  keywords: ["便利ツール", "無料ツール", "日常", "Webアプリ", "シンプル", "YNYTools"],
 };
 
 export default function RootLayout({
