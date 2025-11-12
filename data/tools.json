@@ -21,6 +21,36 @@
         "title": "Diffツール",
         "description": "2つの文字列比較",
         "href": "/tools/diff-checker"
+      },
+      {
+        "title": "改行削除ツール",
+        "description": "改行をすべて削除して1行に整えます",
+        "href": "/tools/remove-linebreaks"
+      },
+      {
+        "title": "空白削除ツール",
+        "description": "スペースやタブなどの空白文字をすべて削除します",
+        "href": "/tools/remove-spaces"
+      },
+      {
+        "title": "行番号付与ツール",
+        "description": "各行の先頭に自動で行番号を追加します",
+        "href": "/tools/add-line-numbers"
+      },
+      {
+        "title": "文字列整列ツール",
+        "description": "テキスト行を昇順または降順に並べ替えます",
+        "href": "/tools/sort-lines"
+      },
+      {
+        "title": "重複行削除ツール",
+        "description": "同じ行を1つにまとめます",
+        "href": "/tools/remove-duplicate-lines"
+      },
+      {
+        "title": "行数カウントツール",
+        "description": "テキストの行数をカウントします",
+        "href": "/tools/count-lines"
       }
     ]
   },
