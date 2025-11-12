@@ -251,6 +251,11 @@
         "title": "世界時計",
         "description": "世界各地の時間を表示します",
         "href": "/tools/world-clock"
+      },
+      {
+        "title": "ポモドータイマー",
+        "description": "25分作業、5分休憩を繰り返します",
+        "href": "/tools/pomodoro-timer"
       }
     ]
   }
