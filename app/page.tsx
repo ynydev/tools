@@ -1,20 +1,7 @@
-"use client"
 import { ToolCard } from "@/components/ToolCard";
 import categories from "@/data/tools.json";
-import { useEffect } from "react";
 
 export default function Home() {
-  const GAS_URL = process.env.NEXT_PUBLIC_GAS_URL!;
-
-  useEffect(() => {
-    fetch(GAS_URL)
-      .then(() => {
-        console.log("アクセス数をカウント！");
-      })
-      .catch((err) => {
-        console.error("アクセス数記録エラー:", err);
-      });
-  }, []);
   return (
     <div className="px-10 space-y-10 sm:px-20 lg:px-30 pb-10">
       {categories.map(({ category, tools }) => (
