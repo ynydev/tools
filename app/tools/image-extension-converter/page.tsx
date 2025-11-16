@@ -3,15 +3,32 @@ import ToolPage from "@/components/layout/ToolPage";
 import { Input } from "@/components/ui/input";
 import { Select, SelectTrigger, SelectContent, SelectItem, SelectValue } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Page() {
   const [file, setFile] = useState<File | null>(null);
   const [targetExt, setTargetExt] = useState("png");
   const [outputUrl, setOutputUrl] = useState("");
 
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://unpkg.com/imagetracerjs/imagetracer_v1.2.6.js";
+    script.onload = () => console.log("ImageTracer loaded");
+    document.body.appendChild(script);
+  }, []);
+
   const convert = async () => {
     if (!file) return;
+
+    if (targetExt === "svg") {
+      const url = URL.createObjectURL(file);
+      (window as any).ImageTracer.imageToSVG(url, (svg: string) => {
+        const blob = new Blob([svg], { type: "image/svg+xml" });
+        const svgUrl = URL.createObjectURL(blob);
+        setOutputUrl(svgUrl);
+      });
+      return;
+    }
 
     const img = document.createElement("img");
     img.src = URL.createObjectURL(file);
@@ -46,6 +63,7 @@ export default function Page() {
             <SelectItem value="png">PNG</SelectItem>
             <SelectItem value="jpg">JPG</SelectItem>
             <SelectItem value="webp">WEBP</SelectItem>
+            <SelectItem value="svg">SVG</SelectItem>
           </SelectContent>
         </Select>
 
@@ -54,7 +72,12 @@ export default function Page() {
 
       {outputUrl && (
         <div className="mt-4 space-y-2">
-          <img src={outputUrl} alt="converted" className="max-w-xs border" />
+          {targetExt !== "svg" ? (
+            <img src={outputUrl} alt="converted" className="max-w-xs border" />
+          ) : (
+            <iframe src={outputUrl} className="w-64 h-64 border bg-white"></iframe>
+          )}
+
           <a
             href={outputUrl}
             download={`converted.${targetExt}`}
